@@ -10,13 +10,12 @@ The main feature of this project is:
 
 ## Project Link
 
-Frontend: http://my-udagram.s3-website-us-east-1.amazonaws.com/
+Frontend: http://binhnnt.s3-website-us-east-1.amazonaws.com/home
 
-Backend: http://haro-dagram-api-dev.us-east-1.elasticbeanstalk.com/
-
+Backend: http://binhnnt.us-east-1.elasticbeanstalk.com/
 ## Project Setup
 
-1. Clone source from repository: https://github.com/huuhao2205/udagram
+1. Clone source from repository: https://github.com/binh273/udagram.git
 2. In AWS, provision a publicly available RDS database running Postgres.
 3. In AWS, provision a s3 bucket for hosting the uploaded files.
 4. Setup ENV variables:
@@ -31,7 +30,7 @@ export AWS_BUCKET=my-udagram          // S3 bucket
 export AWS_DEFAULT_REGION=us-east-1   // AWS default region
 export AWS_REGION=us-east-1           // AWS region
 export AWS_PROFILE=default            // AWS profile
-export JWT_SECRET=mysecretstring      // JWT secret key
+export JWT_SECRET=binhnnt@=           // JWT secret key
 export PORT=5432                      // Posgres Port
 export AWS_ACCESS_KEY_ID=             // AWS Acess Key ID
 export AWS_SECRET_ACCESS_KEY=         // AWS Secret Access Key
